@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA2957421A72F21007A11DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2957321A72F21007A11DE /* AppDelegate.swift */; };
+		EDA2957621A72F21007A11DE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2957521A72F21007A11DE /* MainVC.swift */; };
+		EDA2957921A72F21007A11DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2957721A72F21007A11DE /* Main.storyboard */; };
+		EDA2957B21A72F22007A11DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA2957A21A72F22007A11DE /* Assets.xcassets */; };
+		EDA2957E21A72F22007A11DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2957C21A72F22007A11DE /* LaunchScreen.storyboard */; };
+		EDA2959021A73824007A11DE /* roundRollBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2958F21A73824007A11DE /* roundRollBtn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDA2957021A72F21007A11DE /* dicee-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicee-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA2957321A72F21007A11DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA2957521A72F21007A11DE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EDA2957821A72F21007A11DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA2957A21A72F22007A11DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA2957D21A72F22007A11DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA2957F21A72F22007A11DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA2958F21A73824007A11DE /* roundRollBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundRollBtn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA2956D21A72F21007A11DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA2956721A72F21007A11DE = {
+			isa = PBXGroup;
+			children = (
+				EDA2957221A72F21007A11DE /* dicee-app */,
+				EDA2957A21A72F22007A11DE /* Assets.xcassets */,
+				EDA2957121A72F21007A11DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA2957121A72F21007A11DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2957021A72F21007A11DE /* dicee-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA2957221A72F21007A11DE /* dicee-app */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2958B21A736A2007A11DE /* Button Changes */,
+				EDA2958521A7359C007A11DE /* View Controllers */,
+				EDA2958621A735C9007A11DE /* Story Board */,
+				EDA2957321A72F21007A11DE /* AppDelegate.swift */,
+				EDA2957C21A72F22007A11DE /* LaunchScreen.storyboard */,
+				EDA2957F21A72F22007A11DE /* Info.plist */,
+			);
+			path = "dicee-app";
+			sourceTree = "<group>";
+		};
+		EDA2958521A7359C007A11DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2957521A72F21007A11DE /* MainVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EDA2958621A735C9007A11DE /* Story Board */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2957721A72F21007A11DE /* Main.storyboard */,
+			);
+			path = "Story Board";
+			sourceTree = "<group>";
+		};
+		EDA2958B21A736A2007A11DE /* Button Changes */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2958C21A736C1007A11DE /* Round Button */,
+			);
+			path = "Button Changes";
+			sourceTree = "<group>";
+		};
+		EDA2958C21A736C1007A11DE /* Round Button */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2958F21A73824007A11DE /* roundRollBtn.swift */,
+			);
+			path = "Round Button";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA2956F21A72F21007A11DE /* dicee-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA2958221A72F22007A11DE /* Build configuration list for PBXNativeTarget "dicee-app" */;
+			buildPhases = (
+				EDA2956C21A72F21007A11DE /* Sources */,
+				EDA2956D21A72F21007A11DE /* Frameworks */,
+				EDA2956E21A72F21007A11DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dicee-app";
+			productName = "dicee-app";
+			productReference = EDA2957021A72F21007A11DE /* dicee-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA2956821A72F21007A11DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Debug Development";
+				TargetAttributes = {
+					EDA2956F21A72F21007A11DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EDA2956B21A72F21007A11DE /* Build configuration list for PBXProject "dicee-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA2956721A72F21007A11DE;
+			productRefGroup = EDA2957121A72F21007A11DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA2956F21A72F21007A11DE /* dicee-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA2956E21A72F21007A11DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA2957E21A72F22007A11DE /* LaunchScreen.storyboard in Resources */,
+				EDA2957B21A72F22007A11DE /* Assets.xcassets in Resources */,
+				EDA2957921A72F21007A11DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA2956C21A72F21007A11DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA2957621A72F21007A11DE /* MainVC.swift in Sources */,
+				EDA2957421A72F21007A11DE /* AppDelegate.swift in Sources */,
+				EDA2959021A73824007A11DE /* roundRollBtn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA2957721A72F21007A11DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA2957821A72F21007A11DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA2957C21A72F22007A11DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA2957D21A72F22007A11DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA2958021A72F22007A11DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA2958121A72F22007A11DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA2958321A72F22007A11DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2TX6THDN4;
+				INFOPLIST_FILE = "dicee-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugdevelopment.dicee-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA2958421A72F22007A11DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2TX6THDN4;
+				INFOPLIST_FILE = "dicee-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugdevelopment.dicee-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA2956B21A72F21007A11DE /* Build configuration list for PBXProject "dicee-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA2958021A72F22007A11DE /* Debug */,
+				EDA2958121A72F22007A11DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA2958221A72F22007A11DE /* Build configuration list for PBXNativeTarget "dicee-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA2958321A72F22007A11DE /* Debug */,
+				EDA2958421A72F22007A11DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA2956821A72F21007A11DE /* Project object */;
+}
